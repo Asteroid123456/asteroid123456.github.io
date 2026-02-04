@@ -2063,7 +2063,7 @@ input[type="submit"]:focus-visible {
           <div class="menu-items">
             <a class="menu-link" onclick="location.reload()">Refresh Data</a>
             <a class="menu-link" onclick="openSettings()">Settings</a>
-            <a href="https://Comet-pixel.github.io" class="menu-link logout">Log Out</a>
+            <a href="https://comet-pixelatedated.github.io" class="menu-link logout">Log Out</a>
           </div>
         </div>
       </div>
@@ -2469,7 +2469,7 @@ input[type="submit"]:focus-visible {
 
   <footer>
     <p>
-      <a href="https://Comet-pixel.github.io">Comet</a> &copy; 2025
+      <a href="https://comet-pixelated.github.io">Comet</a> &copy; 2025
     </p>
     <div style="margin-top: 1rem; opacity: 0.6;">
       Licensed under Creative Commons BY-NC-ND 4.0
@@ -4072,7 +4072,7 @@ async function handleSignOutUser(targetUser) {
             else if (cmd === '/signout_all') {
                 sessionStorage.clear();
                 localStorage.removeItem('usernamePassword'); // Ensure local data is cleared
-                window.location.href = "https://Comet-pixel.github.io";
+                window.location.href = "https://comet-pixelated.github.io";
             } 
             // HANDLE TARGETED SIGN OUT
             else if (cmd.startsWith('/signout_user:')) {
@@ -4080,7 +4080,7 @@ async function handleSignOutUser(targetUser) {
                 if (currentUser === target) {
                     sessionStorage.clear();
                     localStorage.removeItem('usernamePassword');
-                    window.location.href = "https://Comet-pixel.github.io";
+                    window.location.href = "https://comet-pixelated.github.io";
                 }
             } 
             else {
@@ -4468,7 +4468,7 @@ fetchLeaderboard('weekly');
 
     const zonesURL = "zones.json";
     const coverURL = "https://cdn.jsdelivr.net/gh/gn-math/covers@main";
-    const htmlURL = "https://cdn.jsdelivr.net/gh/Comet-pixel/html@main";
+    const htmlURL = "https://cdn.jsdelivr.net/gh/comet-pixelated/html@main";
     let zones = []; let popularityData = {};
 
     async function listZones() {
@@ -4961,7 +4961,7 @@ function executeLogout() {
     afkSeconds = -999999;
     sessionStorage.clear();
     localStorage.removeItem('usernamePassword');
-    window.location.href = "https://Comet-pixel.github.io";
+    window.location.href = "https://comet-pixelated.github.io";
 }
 
 // Launch
